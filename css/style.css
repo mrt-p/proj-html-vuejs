@@ -10,14 +10,14 @@
 
 .background {
   background: rgb(2,0,36);
-background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(8,8,89,1) 100%);
+  background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(8,8,89,1) 100%);
 }
 
 /* HEADER */
 header {
   height: 100vh;
+  width: 90%;
   margin: 0 auto;
-  width: 80%;
 }
 
 /* NAVBAR MENU */
@@ -40,6 +40,7 @@ header {
 .navbar ul {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .navbar ul li {
@@ -50,12 +51,25 @@ header {
 .navbar ul li a {
   color: white;
 }
+.navbar ul li a:hover {
+  color: #F9636B;
+  text-decoration: none;
+}
 
 .navbar button {
   height: 50%;
-  padding: 5px 20px;
+  padding: 5px 15px;
+  margin-left: 20px;
   border-radius: 20px;
   color: white;
+  background: rgb(7,150,198);
+  background: linear-gradient(83deg, rgba(7,150,198,1) 0%, rgba(5,66,111,1) 100%);
+  border: none;
+}
+.navbar button:hover {
+  background: rgb(188,42,109);
+  background: linear-gradient(82deg, rgba(188,42,109,1) 0%, rgba(218,70,108,1) 50%, rgba(226,137,132,1) 100%);  
+
 }
 
 /* FINE NAVBAR MENU */
@@ -77,11 +91,35 @@ header {
   flex-direction: column;
   justify-content: space-between;
 }
-.j_title {
-  
+.j_title h1 {
+  font-size: 50px;
 }
 .j_subtitle {
   margin: 20px 0;
+  color: #03A7D3E6;
+}
+.j_button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  margin-right: 20px;
+}
+.blue {
+  background: rgb(7,150,198);
+  background: linear-gradient(83deg, rgba(7,150,198,1) 0%, rgba(5,66,111,1) 100%);
+}
+.pink {
+  background: rgb(188,42,109);
+  background: linear-gradient(82deg, rgba(188,42,109,1) 0%, rgba(218,70,108,1) 50%, rgba(226,137,132,1) 100%);  
+}
+.blue:hover {
+  background: rgb(188,42,109);
+  background: linear-gradient(82deg, rgba(188,42,109,1) 0%, rgba(218,70,108,1) 50%, rgba(226,137,132,1) 100%);  
+}
+.pink:hover {
+  background: rgb(7,150,198);
+  background: linear-gradient(83deg, rgba(7,150,198,1) 0%, rgba(5,66,111,1) 100%);
 }
 
 .j_right {
