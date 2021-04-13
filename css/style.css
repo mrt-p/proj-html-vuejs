@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-.background {
+.background_blue {
   background: rgb(2,0,36);
   background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(8,8,89,1) 100%);
 }
@@ -132,3 +132,51 @@ header {
 
 /* FINE JUMBO */
 /* FINE HEADER */
+
+/* SECTION WHAT WE DO */
+
+.background_white {
+  background-color: white;
+}
+.wedo {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.wedo_title {
+  margin-top: 50px;
+}
+.wedo_title h1 {
+  margin: 20px 0;
+}
+
+.wedo_cards {
+  display: flex;
+  align-items: flex-end
+}
+.card {
+  width: 20%;
+  margin: 50px;
+}
+.card img {
+  width: 60%;
+  margin: 40px 0;
+}
+.card h4 {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.wedo_button button {
+  height: 50%;
+  padding: 10px 30px;
+  margin: 50px 0;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  box-shadow: 0px 0px 20px 7px #ee6e998c;
+}
+/* FINE SECTION WHAT WE DO */
