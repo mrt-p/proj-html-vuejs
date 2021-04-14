@@ -19,78 +19,111 @@
 </head>
 <body>
   <div id="app" class="container">
-    <div class="background_blue">
     <header>
       <div class="navbar">
         <div class="navbar_left">
-          <img :src=logo :alt="logo" class="logo">
+          <a href="#"><img :src=logo :alt="logo" class="logo"></a>
         </div>
         <div class="navbar_right">
           <ul class="menu">
             <li v-for="link in links"> <a href="#">{{link.name}} </a></li>
-            <button>{{button.name}}</button>
+            <button class="button blue_button">{{button.name}}</button>
           </ul>
         </div>
       </div>
-      <div class="jumbo">
-        <div class="j_left">
-          <div class="j_title">
-            <h1> <strong> Business Planning </strong>
+      <div class="section business">
+        <div class="left">
+          <div class="title">
+            <strong> Business Planning </strong>
               <br> Digital Technology <br> 
             <strong> Modern Solution ! </strong>
-            </h1>
           </div>
-          <div class="j_subtitle">
-          When, while the lovely valley teems with vapour around
+          <div class="subtitle">
+            When, while the lovely valley teems with vapour around
           <br> meand the meridian sun strikes the upper surface.
           </div>
-          <div class="j_buttons">
-          <button class="j_button pink">Try It Now</button>
-          <button class="j_button blue">Explore More</button>
-          </div>
+          <div class="title_buttons">
+            <button class="button pink_button">Try It Now</button>
+            <button class="button blue_button">Explore More</button>
+            </div>
         </div>
-        <div class="j_right">
-          <img src="img/header.png" alt="header_img">
+        <div class="right">
+          <img class="header_img" src="img/header.png" alt="header_img">
         </div>
       </div>
     </header>
-    <div class="background_white">
-    <div class="section wedo">
-      <div class="wedo_title">
-        <span style="color: #F9636B;">Our Services</span>
-        <h1><strong>What</strong> We Do </h1>
-        <span>When, while the lovely valley teems whit vapour around meand the</span>
-      </div>
-      <div class="wedo_cards">
-        <div class="card">
-          <img src="img/Group-247.png" alt="">
-          <h4>Data Analysis</h4>
-          <span>When, while the lovely valley teems with vapour around  meand the meridian sun strikes the upper</span>
+    <div class="container white">
+      <div class="section wedo">
+        <div class="wedo_title">
+          <span style="color: #F9636B;">Our Services</span>
+          <h1><strong>What</strong> We Do </h1>
+          <span>When, while the lovely valley teems whit vapour around meand the</span>
         </div>
-        <div class="card">
-          <img src="img/Group-567.png" alt="">
-          <h4>SEO Optimization</h4>
+        <div class="wedo_cards">
+          <div class="card">
+            <img src="img/Group-247.png" alt="">
+            <div class="card_text">
+              <h3>Data Analysis</h3>
           <span>When, while the lovely valley teems with vapour around  meand the meridian sun strikes the upper</span>
-        </div>
-        <div class="card">
-          <img src="img/Group-538.png" alt="">
-          <h4>Security Data</h4>
+            </div>
+            <button class="circle"><i class="fas fa-arrow-right"></i></button>
+          </div>
+          <div class="card">
+            <img src="img/Group-567.png" alt="">
+            <div class="card_text">
+              <h3>SEO Optimization</h3>
           <span>When, while the lovely valley teems with vapour around  meand the meridian sun strikes the upper</span>
-        </div>
-        <div class="card">
-          <img src="img/Group-566.png" alt="">
-          <h4>Branding Strategy</h4>
+            </div>
+            <button class="circle"><i class="fas fa-arrow-right"></i></button>
+          </div>
+          <div class="card">
+            <img src="img/Group-538.png" alt="">
+            <div class="card_text">
+              <h3>Security Data</h3>
           <span>When, while the lovely valley teems with vapour around  meand the meridian sun strikes the upper</span>
+            </div>
+            <button class="circle"><i class="fas fa-arrow-right"></i></button>
+          </div>
+          <div class="card">
+            <img src="img/Group-566.png" alt="">
+            <div class="card_text">
+              <h3>Branding Strategy</h3>
+          <span>When, while the lovely valley teems with vapour around  meand the meridian sun strikes the upper</span>
+            </div>
+            <button class="circle"><i class="fas fa-arrow-right"></i></button>
+          </div>
         </div>
-      </div>
-      <div class="wedo_button">
-        <button class="pink">View All Services</button>
+        <div class="wedo_button">
+          <button class="button pink_button">View All Services</button>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
-
-
+    <div class="section grow">
+      <div class="left">
+        <div class="img_bg">
+          <img src="img/nemoodar.png" alt="">
+        </div>
+        <div class="img_up">
+          <img src="img/men-data.png" alt="">
+        </div>
+      </div>
+      <div class="right grow_right">
+        <div class="right_text">
+          <span style="color: white;">Start Your Project</span>
+        <div class="title">
+          <strong> Grow Your Business </strong>
+            <br> With Our Strategy
+        </div>
+        <div class="subtitle">
+          When, while the lovely valley teems with vapour around meand the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary.
+        </div>
+        <div class="title_buttons">
+          <button class="button pink_button">Try It Now</button>
+          <button class="button blue_button">Explore More</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 
