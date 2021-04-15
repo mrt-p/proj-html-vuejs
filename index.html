@@ -124,6 +124,84 @@
         </div>
       </div>
     </div>
+    <div class="section portfolio">
+      <div class="portfolio_title">
+        <span style="color: #F9636B;">Portfolio</span>
+        <h1><strong>latest</strong> work</h1>
+      </div>
+      <div class="portfolio_cards">
+        <div class="portfolio_card">
+          <div class="portfolio_card_img one">
+            
+          </div>
+          <div class="portfolio_card_text">
+            <span><strong>Basket of Flower on table</strong></span>
+            <span style="color: lightgrey;"> Branding Strategy </span>
+          </div>
+        </div>
+        <div class="portfolio_card">
+          <div class="portfolio_card_img two">
+            
+          </div>
+          <div class="portfolio_card_text">
+            <span><strong>Purinky Products</strong></span>
+            <span style="color: lightgrey;"> Digital Experience </span>
+          </div>
+        </div>
+        <div class="portfolio_card">
+          <div class="portfolio_card_img three">
+            
+          </div>
+          <div class="portfolio_card_text">
+            <span><strong>Satisfy Poster</strong></span>
+            <span style="color: lightgrey;"> Branding Strategy </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer_up">
+        <div class="footer_block one">
+          <a href="#"><img :src=logo :alt="logo" class="logo"></a>
+          <span>When, while lovely valley teems vapour around meand meridian sun strikes the upper impenetrable</span>
+        </div>
+        <div class="footer_block two">
+          <ul>
+            <li><strong>Quick Links</strong></li>
+            <li v-for="quicklink in quicklinks"> <a href="#">{{quicklink.name}} </a></li>
+          </ul>
+        </div>
+        <div class="footer_block three">
+          <ul>
+            <li><strong>Resources</strong></li>
+            <li v-for="resourceslink in resourceslinks"> <a href="#">{{resourceslink.name}} </a></li>
+          </ul>
+        </div>
+        <div class="footer_block four">
+          <ul>
+            <li><strong>Contact Us</strong></li>
+            <li><a href="#"><strong><span style="color: white;">Address: </span></strong>{{contactus.address}} </a></li>
+            <li><a href="#"><strong><span style="color: white;">Phone: </span></strong>{{contactus.phone}} </a></li>
+            <li><a href="#"><strong><span style="color: white;">Email: </span></strong>{{contactus.email}} </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer_down">
+        <div class="footer_down_space">
+        <div class="footer_left">
+          <h6><i class="far fa-copyright"></i> Phlox. All Rights Reserved.</h6>
+        </div>
+      <div class="footer_right">
+        <ul>
+          <li><a href=""><i class="fab fa-instagram"></i></a></li>
+          <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+          <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href=""><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>      
+    </div>
+  </div>
+    </footer>
   </div>
 
 
