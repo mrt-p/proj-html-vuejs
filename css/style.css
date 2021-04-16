@@ -253,7 +253,7 @@ header {
 .portfolio_cards {
   height: 70%;
   width: 100%;
-  margin: 40px auto;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
@@ -292,7 +292,274 @@ header {
   background: linear-gradient(82deg, rgba(188,42,109,1) 0%, rgba(218,70,108,1) 50%, rgba(226,137,132,1) 100%);  
   color: white;
 }
+
+.portfolio_card_indicators {
+  width: 100%;
+  justify-content: center;
+}
+.portfolio_card_indicators ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio_card_indicators ul li {
+  list-style: none;
+  margin: 5px;
+}
+.portfolio_card_indicators a{
+  font-size: 10px;
+  color: lightgrey;
+}
+.portfolio_card_indicators ul:first-child .first{
+  color: #F9636B;
+}
+.portfolio_card_indicators ul li a:hover {
+  color: #F9636B;
+}
 /* FINE SECTION PORTFOLIO */
+/* SECTION PRICELIST */
+.pricelist {
+  width: 100%;
+  height: 130vh;
+  background: linear-gradient(360deg, white 50%,  rgba(8,8,89,1) 50%);  
+}
+.pricelist_container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+}
+.pricelist_title {
+  text-align: center;
+  color: white;
+  width: 40%;
+  height: 20%;
+  margin-bottom: 40px;
+}
+
+.pricelist_cards {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.pricelist_card {
+  width: 30%;
+  height: 100%;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 20px 7px #8888883d;
+}
+.first {
+  background-color: white;
+}
+.second {
+  background: rgb(188,42,109);
+  background: linear-gradient(82deg, rgba(188,42,109,1) 0%, rgba(218,70,108,1) 50%, rgba(226,137,132,1) 100%);  
+  color: white;
+}
+.second_button {
+  background: white;
+  color: #F9636B;
+}
+.second_button:hover {
+  color: white;
+  background: rgb(7,150,198);
+  background: linear-gradient(83deg, rgba(7,150,198,1) 0%, rgba(5,66,111,1) 100%);
+}
+.pricelist_card_title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.pricelist_card_price h1 {
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: 0;
+}
+.pricelist_card_price {
+  text-align: center;
+}
+
+.pricelist_card_list {
+  margin-top: 10px;
+  text-align: center;
+}
+.pricelist_card_list ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.pricelist_card_button {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.pricelist_card_button button {
+  margin-right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+/* FINE SECTION PRICELIST */
+/* SECTION BLOG */
+.blog_container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.blog_title {
+  text-align: center;
+  width: 40%;
+  height: 20%;
+  margin-bottom: 40px;
+  height: 20%;
+}
+.blog_cards {
+  height: 80%;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+}
+.blog_left {
+  width: 50%;
+}
+.blog_card_left {
+  width: 100%;
+  margin: 0 auto;
+  height: 70%;
+  border-radius: 30px;
+  background-color: #0000005e;
+  background-image: url(../img/headway-537308-unsplash-1380x703.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: darken;
+  display: flex;
+  align-items: center;
+}
+.blog_card_text {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  display: flex;
+  color: white;
+  align-items: flex-end;
+}
+.blog_card_title {
+  width: 70%;
+  margin-top: 20px;
+}
+.blog_card_title h4 {
+  margin: 20px 0;
+}
+
+.blog_card_button {
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+.button.blog {
+  color: black;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.blog_right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.blog_card_right {
+  height: 70%;
+  width: 25%;
+  background: rgb(2,0,36);
+  background: linear-gradient(360deg, rgba(2,0,36,1) 0%, rgba(8,8,89,1) 100%);  
+  border-radius: 30px;
+  margin-left: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.blog_card_text.right {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.button_card_right {
+  width: 70%;
+  display: flex;
+  justify-content: flex-start;
+}
+/* FINE SECTION BLOG */
+/* SECTION TESTIMONIAL */
+.testimonial_container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.testimonial_title {
+  text-align: center;
+  width: 40%;
+  height: 20%;
+  margin-bottom: 40px;
+  height: 20%;
+}
+.testimonial_cards {
+  width: 85%;
+  margin: 0 auto;
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.testimonial_card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial_card img{
+  width: 30%;
+  border: solid #B6246E 4px;
+  border-radius: 50%;
+}
+.testimonial_rating {
+  font-size: 12px;
+  color: #B6246E;
+  margin: 30px 0;
+}
+.testimonial_text {
+  text-align: center;
+}
+.testimonial_text h5{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.testimonial_loghi {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+  width:  85%;
+  margin-bottom: 50px;
+}
+/* FINE SECTION TESTIMONIAL */
 /* FOOTER */
 footer {
   background: rgb(2,0,36);
